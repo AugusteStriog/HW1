@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# Calculate the number of sequences in the reference genome
 NUM=$(grep -c '>' "/home/bioinformatikai/HW1/refs/mm9.fa.gz")
 echo "Number of sequences in the reference genome: ${NUM}"
 
